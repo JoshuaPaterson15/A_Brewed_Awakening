@@ -1,0 +1,58 @@
+html{
+    background-color:#A18D78;
+}
+h2{
+    color: #A18D78;
+    background: linear-gradient(#C87F28, #FFFFFF);
+    border-radius: 20px;
+      text-decoration: underline;
+    font-size: 80px;
+
+}
+
+button{
+    background: black;
+    color: white;
+    padding: 10px;
+    border-color: black;
+    border-radius: 12px;
+}
+
+body{
+    text-align: center;
+    color:blue;
+}
+ div.myheader {
+    font-size: 80px;
+     font-family:fantasy; 
+     color:darkorange;
+}
+
+
+.bottom {
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  font-size: 18px;;
+}
+
+
+
+div.transbox {
+  margin: 0px;
+  background-color: #CDAF8D;
+border-radius: 60px;
+top:30%;
+left: 17%;
+    right: 17%;
+    bottom: 10%;
+    
+}
+
+footer {
+    color: white;
+    background-color: black;
+
+}
+
