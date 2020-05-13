@@ -1,13 +1,16 @@
 html{
     background-color:#A18D78;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 17px;
 }
-h2{
+
+h1{
     color: #A18D78;
     background: linear-gradient(#C87F28, #FFFFFF);
-    border-radius: 20px;
       text-decoration: underline;
-    font-size: 80px;
-
+    font-size: 55px;
+    font-family: 'Quicksand', sans-serif;
+    border-radius: 20px;
 }
 
 button{
@@ -16,13 +19,18 @@ button{
     font-size: 20px;
     border: 0;
     border-radius: 20px;
-    padding: 2px 7px;    
+    padding: 2px 7px;
+    
 }
-
 
 body{
     text-align: center;
-    color:blue;
+    color:black;
+    font-family: 'Quicksand', sans-serif;
+-webkit-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
 }
  div.myheader {
     font-size: 80px;
@@ -31,30 +39,64 @@ body{
 }
 
 
-.bottom {
-  left: 0;
-  top: 50%;
-  width: 100%;
-  text-align: center;
-  font-size: 18px;;
-}
-
-
 
 div.transbox {
   margin: 0px;
   background-color: #CDAF8D;
 border-radius: 60px;
-top:30%;
-left: 17%;
-    right: 17%;
-    bottom: 10%;
-    
 }
 
 footer {
     color: white;
     background-color: black;
-
+    border-radius: 20px;
+    padding: 0px;
 }
 
+button:hover {
+background-color: #CDAF8D;
+    color: white;
+}
+
+a {
+    color: white;
+}
+
+img {
+    border: 0;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
+table {
+  width:50%;
+text-align: center;
+margin-left: auto;
+  margin-right: auto;
+    
+}
+
+th {
+  height: 50px;
+}
+div.googleForm {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+@media print{
+    
+html{
+    background-color: white;
+    }
+    
+head,
+    footer {
+        display: none;
+    }
+    img {
+        display: none;
+    }
+}
