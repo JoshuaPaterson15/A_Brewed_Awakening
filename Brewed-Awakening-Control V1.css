@@ -13,14 +13,17 @@ h1{
     border-radius: 20px;
 }
 
-button{
+a.buttonBar{
      background: linear-gradient(#C87F28, #FFFFFF);
     color: black;
     font-size: 20px;
     border: 0;
     border-radius: 20px;
-    padding: 2px 7px;
-    
+    padding: 2px 7px;    
+}
+a.buttonBar:hover {
+background-color: #CDAF8D;
+    color: #CDCDCD;
 }
 
 body{
@@ -51,11 +54,6 @@ footer {
     background-color: black;
     border-radius: 20px;
     padding: 0px;
-}
-
-button:hover {
-background-color: #CDAF8D;
-    color: white;
 }
 
 a {
@@ -92,7 +90,7 @@ html{
     background-color: white;
     }
     
-head,
+header,
     footer {
         display: none;
     }

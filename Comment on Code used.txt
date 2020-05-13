@@ -1,0 +1,18 @@
+ <!-- lang meaning Lanuage is in English(en) for New Zealand (NZ) -->
+ <!-- Stylesheet linked to another page to contol more than one page -->
+ <!-- Font from Google -->
+ <!-- Creator of website -->
+ <!-- Country of Cafe -->
+ <!-- Location of Cafe -->
+ <!-- Small sentence about this page -->
+ <!-- Navigation Bar-->
+ <!-- Logo which if clicked, goes to home page -->
+ <!-- Box which contains the main parts on the page e.g. Images and where it can be noticed as the color is diferent to the background for page. -->
+ <!-- Image sourced by teacher -->
+ <!-- Creative Commons Licence -->
+ <!-- Footer which contains who created and owns this page -->
+ <!-- Imformation about images above -->
+ <!-- Table for a menu in text so cutomers and copy and paste in to somewhere like Google-->
+ <!-- User is able to download the image to keep in gallery or in a file so the cutomer does not have to contact us to ask about prices and so customer and remmber prices -->
+ <!-- A form produced via Jot Form used to make a purchase, shipping excluded. Do not make a purchase or transaction as it must require a Square account and payment setup --> 
+<!--
