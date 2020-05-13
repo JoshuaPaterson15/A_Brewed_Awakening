@@ -11,12 +11,14 @@ h2{
 }
 
 button{
-    background: black;
-    color: white;
-    padding: 10px;
-    border-color: black;
-    border-radius: 12px;
+     background: linear-gradient(#C87F28, #FFFFFF);
+    color: black;
+    font-size: 20px;
+    border: 0;
+    border-radius: 20px;
+    padding: 2px 7px;    
 }
+
 
 body{
     text-align: center;
