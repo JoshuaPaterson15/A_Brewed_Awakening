@@ -1,4 +1,4 @@
- <!-- lang meaning Lanuage is in English(en) for New Zealand (NZ) --> 
+ <!-- lang meaning Lanuage is in English(en) for New Zealand (NZ) -->
  <!-- Stylesheet linked to another page to contol more than one page -->
  <!-- Font from Google -->
  <!-- Creator of website -->
