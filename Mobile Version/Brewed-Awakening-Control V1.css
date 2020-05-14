@@ -1,0 +1,98 @@
+html{ /* For the whole website */
+    background-color:#A18D78; /* Background colour of website */
+    font-family: 'Quicksand', sans-serif; 
+    font-size: 17px; /* Size of words on website */
+}
+
+h1{ /* Mainly the banners */
+    color: #A18D78; /* Colour of words in Heading 1 */
+    background: linear-gradient(#C87F28, #FFFFFF); /* Background colour of Heading 1 in a gradient */
+      text-decoration: underline; 
+    font-family: 'Quicksand', sans-serif;
+    border-radius: 20px; /* How curved are the corners of the box surrounding Heading 1 */
+}
+
+a.buttonBar{ /* Buttons on Navagation Bar */
+     background: linear-gradient(#C87F28, #FFFFFF); /* Background colour in a button in a gradient */
+    color: black; /* Colour of words in Button */
+    font-size: 20px; /* Size of words for buttons */
+    border: 0;
+    border-radius: 20px; /* How curved are the corners of the box surrounding a button */
+    padding: 2px 7px; /* How big the box is around the buttons words */
+margin: 5px;
+    text-decoration: none;
+
+}
+a.buttonBar:hover { /* Buttons on Navagation Bar when hovered or clicked on */
+background-color: #CDAF8D; /* Background colour of button */
+    color: blue; /* Colour of words in Button */
+}
+
+body{ /* Where all the words are e.g. The main body of and navagation bar as well as footer */
+    text-align: center; 
+    color:black; /* Colour of words in Body */
+    font-family: 'Quicksand', sans-serif;
+-webkit-user-select: none; /* Safari */
+-moz-user-select: none; /* Mozilla */
+-ms-user-select: none; /* Microsoft Edge */
+user-select: none; /* Standard syntax */
+}
+
+div.transbox { /* Box which is the outer part of the text in the main part of the page (Refer to the grid on evidence doc for where the main part is) */
+  margin: 0px;
+  background-color: #CDAF8D; /* Background colour of transbox */
+border-radius: 60px;/* How curved are the corners of the box surrounding a button */
+}
+
+footer { /* For credits to creator and owner */
+    color: white; /* Colour of words in Footer */
+    background-color: black; /* Background colour in Footer */
+    border-radius: 20px; /* How curved are the corners of the box surrounding the words in footer */
+    padding: 0px;
+}
+
+a { /* A link but not like a button in the navigation bar */
+    color: white; /* Colour of words in the Link / A */
+}
+
+img { /* Image */
+    border: 0;
+    max-height: 99%;
+    max-width: 99%;
+}
+
+table, th, td { 
+  border: 1px solid black; /* Table border */
+}
+
+table {
+  width:50%; /* Width of cells in the table */
+text-align: center;
+margin-left: auto;
+  margin-right: auto;
+    
+}
+
+th {
+  height: 50px; /* Height of header cell in the table */
+}
+div.googleForm,
+a.Googleform{
+	margin-left: auto;
+	margin-right: auto;
+    margin-top: auto;
+    max-height: 99%;
+}
+
+@media print{ /* When you print a document */
+    
+html{
+    background-color: white; /* Instead of a brown background colour it will be white to save ink on your printer */
+    }
+    
+header,
+    footer {
+        display: none; /* The page printed out won't display the header or the footer */
+    }
+    
+}
