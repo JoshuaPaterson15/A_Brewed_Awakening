@@ -22,17 +22,6 @@ a.buttonBar{ /* Buttons on Navagation Bar */
     padding: 2px 7px; /* How big the box is around the buttons words */
 margin: 5px;
     text-decoration: none;
-// When the user scrolls down 80px from the top of the document, resize the navbar's padding and the logo's font size
-window.onscroll = function() {scrollFunction()};
-
-function scrollFunction() {
-  if (document.body.scrollTop > 99 || document.documentElement.scrollTop > 99) {
-    document.getElementById("buttonbar").style.padding = "20px 10px";
-  } else {
-    document.getElementById("navbar").style.padding = "80px 10px";
-  }
-}
-
 }
 a.buttonBar:hover { /* Buttons on Navagation Bar when hovered or clicked on */
 background-color: #CDAF8D; /* Background colour of button */
