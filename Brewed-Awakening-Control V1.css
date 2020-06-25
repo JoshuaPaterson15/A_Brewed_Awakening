@@ -72,7 +72,7 @@ margin-left: auto;
 }
 
 @media screen and (max-width: 500px) {
-  .navbar a {
+  a.buttonBar {
     float: none;
     display: block;
     width: 100%;
