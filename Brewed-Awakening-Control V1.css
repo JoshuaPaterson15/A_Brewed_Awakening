@@ -23,6 +23,9 @@ a.buttonBar{ /* Buttons on Navagation Bar */
 margin: 5px;
     text-decoration: none;
 	  line-height: 25px;
+	  transition: 0.4s;
+  position: fixed;
+	 overflow: hidden;
 
 }
 a.buttonBar:hover { /* Buttons on Navagation Bar when hovered or clicked on */
