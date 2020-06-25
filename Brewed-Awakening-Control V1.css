@@ -76,7 +76,7 @@ margin-left: auto;
     float: none;
     display: block;
     width: 80%;
-
+	}
 th {
   height: 50px; /* Height of header cell in the table */
 }
