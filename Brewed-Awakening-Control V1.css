@@ -71,7 +71,7 @@ margin-left: auto;
     
 }
 
-@media screen and (max-width: 80px) {
+@media screen and (max-width: 19px) {
   a.buttonBar {
     float: none;
     display: block;
