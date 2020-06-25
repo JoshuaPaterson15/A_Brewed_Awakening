@@ -22,6 +22,7 @@ a.buttonBar{ /* Buttons on Navagation Bar */
     padding: 2px 7px; /* How big the box is around the buttons words */
 margin: 5px;
     text-decoration: none;
+	  line-height: 25px;
 
 }
 a.buttonBar:hover { /* Buttons on Navagation Bar when hovered or clicked on */
