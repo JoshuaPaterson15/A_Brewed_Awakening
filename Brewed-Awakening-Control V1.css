@@ -20,7 +20,7 @@ a.buttonBar{ /* Buttons on Navagation Bar */
     border: 0;
     border-radius: 20px; /* How curved are the corners of the box surrounding a button */
     padding: 2px 7px; /* How big the box is around the buttons words */
-    margin: 5px 5px 5px100px;
+    margin: 5px 5px 5px 100px;
     text-decoration: none;
 }
 a.buttonBar:hover { /* Buttons on Navagation Bar when hovered or clicked on */
