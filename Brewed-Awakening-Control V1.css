@@ -19,7 +19,7 @@ a.buttonBar{ /* Buttons on Navagation Bar */
     font-size: 20px; /* Size of words for buttons */
     border: 0;
     border-radius: 20px; /* How curved are the corners of the box surrounding a button */
-    padding: 2px 7px; /* How big the box is around the buttons words */
+    padding: 2px 7px 1px 1px; /* How big the box is around the buttons words */
     margin: 500px 500px 500px 500px;
     text-decoration: none;
 }
