@@ -8,28 +8,30 @@ h1{ /* Mainly the banners */
     color: #A18D78; /* Colour of words in Heading 1 */
     background: linear-gradient(#C87F28, #FFFFFF); /* Background colour of Heading 1 in a gradient */
       text-decoration: underline; 
-    font-size: 55px; /* Size of words in Heading 1 */
+    font-size: 55px; /* Size of words in Heading 1. */
     font-family: 'Quicksand', sans-serif;
-    border-radius: 20px; /* How curved are the corners of the box surrounding Heading 1 */
+    border-radius: 20px; /* How curved are the corners of the box surrounding Heading 1. */
 }
 
-a.buttonBar{ /* Buttons on Navagation Bar */
-     background: linear-gradient(#C87F28, #FFFFFF); /* Background colour in a button in a gradient */
-    color: black; /* Colour of words in Button */
-    font-size: 20px; /* Size of words for buttons */
-    border: 20;
-    border-radius: 20px; /* How curved are the corners of the box surrounding a button */
-    padding: 20px 700px 10px 10px; /* How big the box is around the buttons words */
+a.buttonBar{ /* Buttons on Navagation Bar. */
+     background: linear-gradient(#C87F28, #FFFFFF); /* Background colour in a button in a gradient. */
+    color: black; /* Colour of words in button. */
+    font-size: 20px; /* Size of words for buttons. */
+    border: 0;
+    border-radius: 20px; /* How curved are the corners of the box surrounding a button. */
+    padding: 2px 7px; /* How big the box is around the buttons words. */
+margin: 5px;
     text-decoration: none;
+
 }
-a.buttonBar:hover { /* Buttons on Navagation Bar when hovered or clicked on */
-background-color: #CDAF8D; /* Background colour of button */
-    color: blue; /* Colour of words in Button */
+a.buttonBar:hover { /* Buttons on Navagation Bar when hovered or clicked on. */
+background-color: #CDAF8D; /* Background colour of button. */
+    color: blue; /* Colour of words in button. */
 }
 
-body{ /* Where all the words are e.g. The main body of and navagation bar as well as footer */
-    text-align: center; 
-    color:black; /* Colour of words in Body */
+body{ /* Where the content is for the HTML page e.g. The main body of and navagation bar as well as footer. */
+    text-align: center; /* Align text into center of page. */
+    color:black; /* Colour of words in body. */
     font-family: 'Quicksand', sans-serif;
 -webkit-user-select: none; /* Safari */
 -moz-user-select: none; /* Mozilla */
@@ -37,56 +39,61 @@ body{ /* Where all the words are e.g. The main body of and navagation bar as wel
 user-select: none; /* Standard syntax */
 }
 
-div.transbox { /* Box which is the outer part of the text in the main part of the page (Refer to the grid on evidence doc for where the main part is) */
+div.transbox { /* Box which is the outer part of the text in the main part of the page (Refer to the grid on evidence doc for where the main part is). */
   margin: 0px;
-  background-color: #CDAF8D; /* Background colour of transbox */
-border-radius: 60px;/* How curved are the corners of the box surrounding a button */
+  background-color: #CDAF8D; /* Background colour of transbox. */
+border-radius: 60px;/* How curved are the corners of the box surrounding a button. */
 }
 
-footer { /* For credits to creator and owner */
-    color: white; /* Colour of words in Footer */
-    background-color: black; /* Background colour in Footer */
-    border-radius: 20px; /* How curved are the corners of the box surrounding the words in footer */
+footer { /* For credits to creator and owner. */
+    color: white; /* Colour of words in footer. */
+    background-color: black; /* Background colour in footer. */
+    border-radius: 20px; /* How curved are the corners of the box surrounding the words in footer. */
     padding: 0px;
 }
 
-a { /* A link but not like a button in the navigation bar */
-    color: white; /* Colour of words in the Link / A */
+a { /* A link but not like a button in the navigation bar. */
+    color: white; /* Colour of words in area of a tags <> */
 }
 
-img { /* Image */
+img { /* Image. */
     border: 0;
 }
 
 table, th, td { 
-  border: 1px solid black; /* Table border */
+  border: 1px solid black; /* Table border. */
 }
 
 table {
-  width:50%; /* Width of cells in the table */
-text-align: center;
-margin-left: auto;
+  width:50%; /* Width of cells in the table. */
+text-align: center; /* Align text into center of page. */
+margin-left: auto; 
   margin-right: auto;
     
 }
-}
+
 th {
   height: 50px; /* Height of header cell in the table */
 }
-div.googleForm {
-	margin-left: auto;
-	margin-right: auto;
+div.googleForm { /* Google form */
+	margin-left: auto; /* Help align Google form. */
+	margin-right: auto; /* Help align Google form. */
 }
 
-@media print{ /* When you print a document */
+@media print{ /* When you print a document. */
     
 html{
-    background-color: white; /* Instead of a brown background colour it will be white to save ink on your printer */
+    background-color: white; /* Instead of a brown background colour it will be white to save ink on your printer. */
+    }
+    
+a{
+    color: black; /* All links are black on paper when printed. */
+    text-decoration: underline; /* All links are underlined on paper when printed. */
     }
     
 header,
     footer {
-        display: none; /* The page printed out won't display the header or the footer */
+        display: none; /* The page printed out won't display the header or the footer. */
     }
     
 }
