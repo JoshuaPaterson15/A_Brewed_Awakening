@@ -17,7 +17,7 @@ a.buttonBar{ /* Buttons on Navagation Bar */
      background: linear-gradient(#C87F28, #FFFFFF); /* Background colour in a button in a gradient */
     color: black; /* Colour of words in Button */
     font-size: 20px; /* Size of words for buttons */
-    border: 0;
+    border: 20;
     border-radius: 20px; /* How curved are the corners of the box surrounding a button */
     padding: 20px 70px 10px 10px; /* How big the box is around the buttons words */
     margin: 50px 50px 50px 50px;
